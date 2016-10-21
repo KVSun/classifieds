@@ -1,0 +1,52 @@
+<?php
+namespace KVSun\Classifieds;
+
+abstract class Codes
+{
+	const CATEGORIES = array(
+		100 => 'services',
+		105 => 'thank yous',
+		200 => 'personals',
+		205 => 'financial',
+		210 => 'lost & found',
+		215 => 'business services',
+		300 => 'pets',
+		310 => 'livestock',
+		400 => 'help wanted',
+		410 => 'jobs wanted',
+		420 => 'business services',
+		500 => 'for lease',
+		505 => 'wanted to rent',
+		510 => 'commercial for rent',
+		520 => 'appartments for rent',
+		530 => 'rooms for rent',
+		540 => 'homes for rent',
+		545 => 'vacation rentals',
+		550 => 'mobile homes for rent',
+		560 => 'mobile home space for rent',
+		570 => 'rentals w/tenant screening',
+		575 => 'income property for sale',
+		600 => 'commercial for sale',
+		610 => 'homes for sale',
+		615 => 'money to buy',
+		620 => 'mobile homes for sale',
+		625 => 'real estate loans',
+		630 => 'real estate for sale',
+		640 => 'lots & acerage for sale',
+		650 => 'miscelaneous for sale',
+		655 => 'furniture',
+		660 => 'firewood',
+		670 => 'heavy equipment',
+		700 => 'wanted to buy',
+		705 => 'travel',
+		750 => 'appliances',
+		800 => 'motorcycles for sale',
+		810 => 'autos & trucks for sale',
+		820 => 'motorhomes, trailers, 5th wheels',
+		825 => 'campers & camper shells',
+		830 => 'boats for sale',
+		835 => 'water sport equipment',
+		840 => 'garage & yard sales',
+		850 => 'entertainment'
+	);
+}
